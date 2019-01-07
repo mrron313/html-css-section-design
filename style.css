@@ -1,0 +1,38 @@
+
+
+.section-padding{
+    position: relative;
+}
+
+.section-padding .container {
+    position: relative;
+}
+
+.section-bg{
+    background-image: url("bg.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60%;
+ }
+
+.section-bg:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    content: "";
+    opacity: 0.7;
+}
+
+.container-form{
+    color: #ffffff;
+    padding: 40px;
+}
+
+.bullet-points {
+    padding: 80px 120px;
+}
